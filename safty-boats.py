@@ -52,7 +52,7 @@ def boats_to_save_people(list, limit):
 
 
 def main():
-	people = [45,56,76,43,65,54,87,65,67,34,29,30]
+	people = sorted([45,56,76,43,65,54,87,65,67,34,29,30])
 	limit = 100
 	print (f"No. of boats required to save {len(people)} people with weights {people} in Kg is: {boats_to_save_people(people, limit)}")
 
